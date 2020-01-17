@@ -15,7 +15,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import include,url
+from mainsite.views import homepage,showpost
 
+
+#其中，url(r'^$',homepage)这一行中，^表示字符串开始处，$表示字符串结尾处，
+#两者接在一起就是，当有使用者浏览了网址而没加上任何字符串的时候即（根网址）
+#就去呼叫homepage这个函数
+#
 urlpatterns = [
+	url(r'^$',homepage),
+	url(r'^post/(\w+)$',showpost),
     path('admin/', admin.site.urls),
 ]
