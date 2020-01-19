@@ -1,2 +1,7 @@
 <!-- header.html -->
-<h1 style='font-family:宋体;'>欢迎来到文学天地</h1>
+{% load staticfiles %}
+<div class='well'>
+	<img src="{% static 'images/literary_world.jpg' %}"  width="100" height="100">
+	<span style='font-family:宋体;font-size:40pt;font-weight:700;'>欢迎来到文学天地</span>
+	<!--Well 是一种会引起内容凹陷显示或插图效果的容器  -->
+</div>
