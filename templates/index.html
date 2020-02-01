@@ -1,4 +1,4 @@
-<!-- index.html -->
+<!-- index.html 主页面文件-->
 {% extends 'base.html' %}
 {% block title %}欢迎来到文学天地{% endblock %}
 {% block headmessage %}
@@ -14,12 +14,12 @@
 			</div>
 			<div class='panel-body' style='background-color:#ffffdd'>
 				<p>
-					{{post.body|truncatechars:40}}
+					{{post.body|truncatechars:40}}  <!--主页面显示文章摘要，取文章前40个字符（过滤器）-->
 				</p>
 			</div>
 			<div class='panel-footer' style='background-color:#efefef'>
 				<p>
-					发布时间：{{post.pub_date|date:"Y-m-d, h:m:s"}}
+					发布时间：{{post.pub_date|date:"Y-m-d, h:m:s"}}  <!--现在时刻-->
 				</p>
 			</div>
 		</div>

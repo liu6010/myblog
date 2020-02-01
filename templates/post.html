@@ -1,4 +1,4 @@
-<!-- post.html -->
+<!-- post.html 文章显示-->
 {% extends 'base.html' %}
 {% block title %}{{post.title}} - 文学天地{% endblock %}
 {% block headmessage %}
@@ -6,6 +6,6 @@
 {% endblock %}
 {% block content %}
 	<p style='font-family:宋体;font-size:12pt;letter-spacing:2pt;'>
-			{{post.body}}
+			{{post.body|safe}}<!--加入|safe后可是使文章内的所有html语言可以解读出来-->
 	</p>
 {% endblock %}

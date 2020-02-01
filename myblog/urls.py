@@ -25,6 +25,7 @@ from mainsite.views import homepage,showpost
 #
 urlpatterns = [
 	url(r'^$',homepage),
-	url(r'^post/(\w+)$',showpost),
+	url(r'^post/(\w+)$',showpost),		
+	#通过r'^post/(\w+)$'将post/后面的字符找出来并将作为第二个参数传递给showpost，第一个参数是request
     path('admin/', admin.site.urls),
 ]
