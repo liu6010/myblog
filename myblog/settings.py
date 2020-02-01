@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',		#消息提示功能
     'django.contrib.staticfiles',	#查找静态资源路径
 	'mainsite',						#项目创建的mainsite app
+	'markdown_deux',
 ]
 
 MIDDLEWARE = [

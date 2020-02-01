@@ -1,0 +1,55 @@
+Watching for file changes with StatReloader
+[01/Feb/2020 16:37:26] "GET / HTTP/1.1" 200 6356
+[01/Feb/2020 16:37:28] "GET / HTTP/1.1" 200 6356
+[01/Feb/2020 16:37:28] "GET /post/zaozhuangweibo HTTP/1.1" 200 5097
+[01/Feb/2020 16:37:31] "GET / HTTP/1.1" 200 6356
+[01/Feb/2020 16:37:33] "GET /post/dufu01 HTTP/1.1" 200 3750
+[01/Feb/2020 16:37:34] "GET / HTTP/1.1" 200 6356
+[01/Feb/2020 16:55:48] "GET / HTTP/1.1" 200 6356
+/home/lhw/literaryworld/myblog/myblog/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 01, 2020 - 16:35:04
+Django version 2.2, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[01/Feb/2020 17:13:23] "GET /admin/mainsite/post/6/change/ HTTP/1.1" 200 8075
+[01/Feb/2020 17:13:24] "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[01/Feb/2020 17:15:34] "POST /admin/mainsite/post/6/change/ HTTP/1.1" 302 0
+[01/Feb/2020 17:15:36] "GET /admin/mainsite/post/ HTTP/1.1" 200 6526
+[01/Feb/2020 17:15:38] "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[01/Feb/2020 17:15:46] "GET / HTTP/1.1" 200 6354
+[01/Feb/2020 17:15:50] "GET /post/zaozhuangweibo HTTP/1.1" 200 5195
+[01/Feb/2020 17:16:19] "GET /admin/mainsite/post/6/change/ HTTP/1.1" 200 8147
+[01/Feb/2020 17:16:22] "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[01/Feb/2020 17:18:11] "POST /admin/mainsite/post/6/change/ HTTP/1.1" 302 0
+[01/Feb/2020 17:18:11] "GET /admin/mainsite/post/ HTTP/1.1" 200 6526
+[01/Feb/2020 17:18:11] "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[01/Feb/2020 17:18:14] "GET /post/zaozhuangweibo HTTP/1.1" 200 5218
+[01/Feb/2020 17:18:54] "GET /admin/mainsite/post/6/change/ HTTP/1.1" 200 8154
+[01/Feb/2020 17:18:54] "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[01/Feb/2020 17:20:54] "POST /admin/mainsite/post/6/change/ HTTP/1.1" 302 0
+[01/Feb/2020 17:20:54] "GET /admin/mainsite/post/ HTTP/1.1" 200 6526
+[01/Feb/2020 17:20:54] "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[01/Feb/2020 17:20:58] "GET /post/zaozhuangweibo HTTP/1.1" 200 5226
+[01/Feb/2020 17:21:32] "GET /admin/mainsite/post/6/change/ HTTP/1.1" 200 8156
+[01/Feb/2020 17:21:32] "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[01/Feb/2020 17:21:44] "POST /admin/mainsite/post/6/change/ HTTP/1.1" 302 0
+[01/Feb/2020 17:21:44] "GET /admin/mainsite/post/ HTTP/1.1" 200 6526
+[01/Feb/2020 17:21:44] "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[01/Feb/2020 17:21:47] "GET /post/zaozhuangweibo HTTP/1.1" 200 5234
+[01/Feb/2020 17:24:55] "GET /admin/mainsite/post/6/change/ HTTP/1.1" 200 8158
+[01/Feb/2020 17:24:55] "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[01/Feb/2020 17:25:13] "POST /admin/mainsite/post/6/change/ HTTP/1.1" 302 0
+[01/Feb/2020 17:25:13] "GET /admin/mainsite/post/ HTTP/1.1" 200 6526
+[01/Feb/2020 17:25:14] "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[01/Feb/2020 17:25:16] "GET /post/zaozhuangweibo HTTP/1.1" 200 5249
+[01/Feb/2020 17:25:18] "GET /post/zaozhuangweibo HTTP/1.1" 200 5249
+[01/Feb/2020 17:30:02] "GET /admin/mainsite/post/6/change/ HTTP/1.1" 200 8177
+[01/Feb/2020 17:30:02] "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[01/Feb/2020 17:30:25] "POST /admin/mainsite/post/6/change/ HTTP/1.1" 302 0
+[01/Feb/2020 17:30:25] "GET /admin/mainsite/post/ HTTP/1.1" 200 6526
+[01/Feb/2020 17:30:25] "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[01/Feb/2020 17:30:31] "GET /post/zaozhuangweibo HTTP/1.1" 200 5303
